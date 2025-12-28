@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // Change this URL if deploying
-const API_URL = 'http://localhost:5000/api/incidents';
-const AUTH_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://janraksha.onrender.com/api/incidents';
+const AUTH_URL = 'https://janraksha.onrender.com/api/auth';
 
 export const getIncidents = async () => {
   const response = await axios.get(API_URL);

@@ -11,7 +11,7 @@ import logoImg from '../../assets/logo.png';
 import workingImg from '../../assets/working.png';
 
 // Connect to Socket.IO
-const socket = io('http://localhost:5000');
+const socket = io('https://janraksha.onrender.com');
 
 const Navbar = ({ activeTab, setActiveTab, user, setUser, isMenuOpen, setIsMenuOpen }) => (
   <nav className="navbar">
